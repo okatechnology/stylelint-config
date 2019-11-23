@@ -6,7 +6,7 @@ module.exports = {
   rules: {
     'prettier/prettier': [true, prettierrc],
     'at-rule-no-unknown': [true, {
-      'ignoreAtRules': ['function', 'if', 'for', 'each', 'include', 'mixin', 'content', 'use']
+      'ignoreAtRules': ['function', 'if', 'for', 'each', 'include', 'mixin', 'content', 'extend']
     }],
     'order/properties-alphabetical-order': true,
     'order/order': [
